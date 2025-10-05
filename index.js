@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Team Sync Hub!');
+  res.send('Welcome to the Team Sync Hub - your collaboration starts here!');
 });
 
 app.listen(PORT, () => {
